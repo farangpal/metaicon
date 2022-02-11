@@ -25,7 +25,7 @@ function _0x227f(_0x3622d9, _0x2c2f28) {
 	// total is how many nfts can be purchased
     total = [
 	  1,
-	  10
+	  3
 	],
 	price = 0.2,
     // don't know what this is
