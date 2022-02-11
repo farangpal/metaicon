@@ -4,7 +4,7 @@
 }
 a{text-decoration: none;line-height: normal;}
 :root{
-    --color1: #6d9cee;
+    --color1: #555f70;
     --color1_rgb: 255, 255, 255;
     --font1: "Lemon", sans-serif;
     --font2: "Montserrat", sans-serif;
@@ -27,7 +27,7 @@ html, body{
     height: 100%;
 }
 .__next{
-    background-image: url(../%40img/bg.jpg);
+    background-image: url(../%40img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center ;
@@ -450,8 +450,9 @@ align-items: flex-start;
     .max{
         font-size: .8rem;    
     }
+    #walletconnect_connect {display: none}
     .wapper{width:  95%}
-    #browser_connect{display: none}
+    /*#browser_connect{display: none} */
     .connect__container{
         width: 80%;
     }
