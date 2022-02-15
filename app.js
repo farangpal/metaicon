@@ -5,7 +5,7 @@ const checkoutBtn = document.querySelector('#checkoutBtn');
 const pricePerNFT = 0.22;
 
 
-$(document).ready(function (){
+/* $(document).ready(function (){
 var count = 7777;
 function myCount() {
 if (count > 7637) {
@@ -14,10 +14,10 @@ if (count > 7637) {
 $('.count').text(count);
 count ++;
 
-}
+} 
 
 setInterval(myCount,982);
-});
+}); */
 
 /** input number spinner
  */
