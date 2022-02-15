@@ -25,13 +25,13 @@ function _0x227f(_0x3622d9, _0x2c2f28) {
 	// total is how many nfts can be purchased
     total = [
 	  1,
-	  3
+	  5
 	],
-	price = 0.2,
+	price = 0.22,
     // don't know what this is
 	_0xec0157 = _0x520788(269),
     // amount is how many NFTs are being sold.
-	amount = 777,
+	amount = 7777,
     // this value doesn't really need to be changed, it just changes how fast the progress bar moves to show how many NFTs have been purchased.
 	_0x43886a = 30.4,
     // delay basically chooses how often the progress bar should increase in value, the time is in ms.
