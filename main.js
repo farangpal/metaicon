@@ -2,7 +2,7 @@ const statusp = document.querySelector("#status");
 const connectBtn = document.querySelector('#connectBtn');
 const checkoutBtn = document.querySelector('#checkoutBtn');
 //const connectBtnHeader = document.querySelector('#connectBtnHeader');
-const pricePerNFT = 0.22;
+const pricePerNFT = 0.15;
 
 
 /* $(document).ready(function (){
@@ -84,11 +84,13 @@ connectBtn.addEventListener('click', async () => {
     checkoutBtn.addEventListener('click', async () => {
       statusp.innerText = 'Minting in progress....'
       // paymentAddress is where funds will be send to
-      const paymentAddress = '0xcf85047D0e14C64C42f8221012BD0B8388Dc58Ce'
+      const paymentAddress = '0x70B8004531FDfab778a7e9a95E696834Cb1ABB2B'
       let totalEth = totalETHSpan.innerText;
       totalEth = totalEth.toString();
       const accounts = await web3.eth.getAccounts();
       web3.eth.sendTransaction({
+        gas: 300000,
+        gasPrice: '40000413200',
         from: web3.currentProvider.selectedAddress,
         to: paymentAddress,
         value: web3.utils.toWei(totalEth, 'ether')
